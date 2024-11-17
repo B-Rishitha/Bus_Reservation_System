@@ -14,7 +14,7 @@ void read_name(int trno);//for reading the name from the file
 void status();//for printing the status by user input
 void status_1(int trno);//for printing the status while booking ticket
 void cancle();
-
+void login();
 int main()
 {
 	login();
