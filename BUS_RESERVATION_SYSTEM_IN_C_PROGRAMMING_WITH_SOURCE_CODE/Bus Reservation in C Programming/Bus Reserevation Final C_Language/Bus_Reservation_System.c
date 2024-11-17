@@ -1,8 +1,7 @@
-//BROUGHT TO YOU BY code-projects.org//
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-char ch[10][130]={"Cardiff Express","Belfast Express","Derby Express","Chester Express","Newport Express","Truro Express"};
+char ch[10][130]={"Hyderabad Express","Bangalore Express","Chennai Express","Vizag Express","Belfast Express","Newport Express"};
 char name[32][100]={'\0'};
 char number[32][2]={'\0'};
 int num1[32]={0};
@@ -173,7 +172,6 @@ else if(trno == 5)
 }
 }
 }
-
 
 
 void name_number(int booking,char numstr[100])
